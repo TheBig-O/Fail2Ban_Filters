@@ -1,0 +1,9 @@
+# path_f2b/filter.d/bitwarden.local
+# Should be named using Vaultwarden but my whole installation is named Bitwarden
+
+[INCLUDES]
+before = common.conf
+
+[Definition]
+failregex = ^.*Username or password is incorrect\. Try again\. IP: <ADDR>\. Username:.*$
+ignoreregex =
