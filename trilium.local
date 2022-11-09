@@ -1,0 +1,5 @@
+before = common.conf
+
+[Definition]
+failregex =^.*WARNING\: Wrong\ password\ from\ <HOST>\, rejecting\..*$
+ignoreregex =
